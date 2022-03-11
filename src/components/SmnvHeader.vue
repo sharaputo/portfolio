@@ -1,5 +1,19 @@
 <template>
   <header class="header" id="top">
+    <svg
+      width="14"
+      height="13"
+      viewBox="0 0 14 13"
+      fill="none"
+      xmlns="http://www.w3.org/2000/svg"
+      style="display: none"
+    >
+      <path
+        id="arrow"
+        d="M1.77703 0.0201696L13.0874 0.161388L12.9452 11.5494L10.8888 11.5237L10.9879 3.58122L1.45435 12.9439L0.0185119 11.4618L9.4628 2.187L1.75117 2.09071L1.77703 0.0201696Z"
+      />
+    </svg>
+
     <div class="container header__container">
       <div class="header__lang">
         <button
@@ -201,6 +215,7 @@ export default {
       width: 100%;
       height: 100%;
       flex-direction: column;
+      background-color: #201f1f;
       opacity: 0;
       padding: 160px 15px 30px;
       transform: scale(0.9);
