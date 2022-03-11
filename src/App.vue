@@ -1,13 +1,16 @@
 <template>
   <SmnvHeader :is-english="isEnglish" @toggle-language="switchLanguage" />
+
   <main>
     <SmnvPromo :is-english="isEnglish" />
     <SmnvServices :is-english="isEnglish" />
     <SmnvPortfolio :is-english="isEnglish" />
+    <SmnvStages :is-english="isEnglish" />
+    <SmnvCosts :is-english="isEnglish" />
     <SmnvContacts :is-english="isEnglish" />
   </main>
+
   <SmnvFooter :is-english="isEnglish" />
-  <!-- <HelloWorld msg="Welcome to Your Vue.js App" /> -->
 </template>
 
 <script>
@@ -15,7 +18,8 @@ import SmnvHeader from "./components/SmnvHeader.vue";
 import SmnvPromo from "./components/SmnvPromo.vue";
 import SmnvServices from "./components/SmnvServices.vue";
 import SmnvPortfolio from "./components/SmnvPortfolio.vue";
-
+import SmnvStages from "./components/SmnvStages.vue";
+import SmnvCosts from "./components/SmnvCosts.vue";
 import SmnvContacts from "./components/SmnvContacts.vue";
 import SmnvFooter from "./components/SmnvFooter.vue";
 
@@ -26,6 +30,8 @@ export default {
     SmnvPromo,
     SmnvServices,
     SmnvPortfolio,
+    SmnvStages,
+    SmnvCosts,
     SmnvContacts,
     SmnvFooter,
   },
@@ -209,36 +215,5 @@ body {
     line-height: 1.06;
     margin-bottom: 80px;
   }
-}
-
-.ibg {
-  position: relative;
-  height: 0;
-  overflow: hidden;
-  img {
-    position: absolute;
-    top: 0;
-    left: 0;
-    width: 100%;
-    height: 100%;
-    object-fit: cover;
-    object-position: center;
-  }
-}
-
-.fluid-img {
-  width: 100%;
-  height: 100%;
-  object-fit: cover;
-  object-position: center;
-}
-
-.hyphenate {
-  overflow-wrap: break-word;
-  word-wrap: break-word;
-  -webkit-hyphens: auto;
-  -moz-hyphens: auto;
-  -ms-hyphens: auto;
-  hyphens: auto;
 }
 </style>
