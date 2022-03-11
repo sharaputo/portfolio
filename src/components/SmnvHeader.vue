@@ -125,6 +125,11 @@ export default {
       line-height: 1;
       text-transform: uppercase;
       color: #fff;
+      transition: color 0.3s ease-in-out;
+
+      &:hover {
+        color: #a1a1a1;
+      }
 
       &._active {
         text-decoration: underline;
