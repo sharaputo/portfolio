@@ -165,6 +165,10 @@ export default {
 <style lang="less">
 .services {
   padding-top: 80px;
+
+  @media screen and (min-width: 1200px) {
+    padding-top: 200px;
+  }
   &__list {
     display: flex;
     flex-direction: column;
