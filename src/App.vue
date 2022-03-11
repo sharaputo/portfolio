@@ -3,6 +3,8 @@
   <main>
     <SmnvPromo :is-english="isEnglish" />
     <SmnvServices :is-english="isEnglish" />
+
+    <SmnvContacts :is-english="isEnglish" />
   </main>
   <SmnvFooter :is-english="isEnglish" />
   <!-- <HelloWorld msg="Welcome to Your Vue.js App" /> -->
@@ -13,6 +15,7 @@ import SmnvHeader from "./components/SmnvHeader.vue";
 import SmnvPromo from "./components/SmnvPromo.vue";
 import SmnvServices from "./components/SmnvServices.vue";
 
+import SmnvContacts from "./components/SmnvContacts.vue";
 import SmnvFooter from "./components/SmnvFooter.vue";
 
 export default {
@@ -21,6 +24,7 @@ export default {
     SmnvHeader,
     SmnvPromo,
     SmnvServices,
+    SmnvContacts,
     SmnvFooter,
   },
   data() {
