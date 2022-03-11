@@ -1,16 +1,20 @@
 <template>
-  <SmnvHeader />
-  <!-- <img alt="Vue logo" src="./assets/logo.png" /> -->
+  <SmnvHeader :is-english="isEnglish" @toggle-language="switchLanguage" />
+  <main>
+    <SmnvPromo :is-english="isEnglish" />
+  </main>
   <!-- <HelloWorld msg="Welcome to Your Vue.js App" /> -->
 </template>
 
 <script>
 import SmnvHeader from "./components/SmnvHeader.vue";
+import SmnvPromo from "./components/SmnvPromo.vue";
 
 export default {
   name: "App",
   components: {
     SmnvHeader,
+    SmnvPromo,
   },
   data() {
     return {
