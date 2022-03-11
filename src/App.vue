@@ -3,7 +3,7 @@
   <main>
     <SmnvPromo :is-english="isEnglish" />
     <SmnvServices :is-english="isEnglish" />
-
+    <SmnvPortfolio :is-english="isEnglish" />
     <SmnvContacts :is-english="isEnglish" />
   </main>
   <SmnvFooter :is-english="isEnglish" />
@@ -14,6 +14,7 @@
 import SmnvHeader from "./components/SmnvHeader.vue";
 import SmnvPromo from "./components/SmnvPromo.vue";
 import SmnvServices from "./components/SmnvServices.vue";
+import SmnvPortfolio from "./components/SmnvPortfolio.vue";
 
 import SmnvContacts from "./components/SmnvContacts.vue";
 import SmnvFooter from "./components/SmnvFooter.vue";
@@ -24,6 +25,7 @@ export default {
     SmnvHeader,
     SmnvPromo,
     SmnvServices,
+    SmnvPortfolio,
     SmnvContacts,
     SmnvFooter,
   },
@@ -166,7 +168,7 @@ body {
   font-size: 16px;
   font-style: normal;
   font-weight: 400;
-  line-height: 1.3;
+  line-height: 1.35;
   word-wrap: break-word;
   overflow-wrap: break-word;
   color: #fff;
