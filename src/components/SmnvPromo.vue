@@ -134,7 +134,6 @@ export default {
 
   .info {
     font-size: 15px;
-    line-height: 1.35;
     color: #a1a1a1;
     margin-bottom: 40px;
 
@@ -165,7 +164,6 @@ export default {
   .brief {
     position: relative;
     font-size: 20px;
-    line-height: 1.35;
     text-transform: uppercase;
     color: #fff;
     padding-bottom: 7px;

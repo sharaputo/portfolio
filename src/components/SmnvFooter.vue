@@ -55,7 +55,6 @@ export default {
   }
   &__name {
     font-size: 15px;
-    line-height: 1.35;
 
     @media screen and (max-width: 1199px) {
       flex-basis: 125px;
@@ -67,7 +66,6 @@ export default {
   &__top {
     position: relative;
     font-size: 15px;
-    line-height: 1.35;
     color: #fff;
     padding-right: 16px;
     transition: color 0.3s ease-in-out;

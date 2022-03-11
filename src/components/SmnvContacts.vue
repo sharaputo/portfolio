@@ -133,7 +133,6 @@ export default {
     .social-link {
       position: relative;
       font-size: 20px;
-      line-height: 1.35;
       text-transform: uppercase;
       color: #fff;
       padding-bottom: 7px;
@@ -192,7 +191,6 @@ export default {
   &__brief {
     width: 100%;
     font-size: 18px;
-    line-height: 1.35;
     text-align: center;
     text-transform: uppercase;
     color: #201f1f;

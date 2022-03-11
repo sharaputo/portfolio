@@ -193,7 +193,6 @@ export default {
     &__title {
       font-size: 20px;
       font-weight: 400;
-      line-height: 0.95;
       letter-spacing: -0.02em;
       text-transform: uppercase;
 
@@ -202,12 +201,10 @@ export default {
         flex-shrink: 0;
         flex-basis: 325px;
         font-size: 30px;
-        line-height: 1.18;
       }
     }
     &__info {
       font-size: 15px;
-      line-height: 1.35;
       color: #a1a1a1;
 
       @media screen and (min-width: 1200px) {

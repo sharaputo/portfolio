@@ -167,7 +167,6 @@ export default {
       gap: 20px;
       &__link {
         font-size: 20px;
-        line-height: 24px;
         text-transform: uppercase;
         color: #fff;
         transition: color 0.3s ease-in-out;
@@ -178,7 +177,6 @@ export default {
 
         @media screen and (min-width: 1200px) {
           font-size: 14px;
-          line-height: 17px;
         }
       }
 
@@ -198,7 +196,6 @@ export default {
     }
     .social-link {
       font-size: 14px;
-      line-height: 1.3;
       color: #fff;
       text-transform: uppercase;
       text-decoration: underline;
