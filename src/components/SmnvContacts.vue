@@ -1,10 +1,10 @@
 <template>
   <section class="contacts" id="contacts">
     <div class="container">
-      <div class="section-title">
+      <h2 class="section-title">
         <span v-if="isEnglish">contacts</span>
         <span v-else>контакты</span>
-      </div>
+      </h2>
       <div class="contacts__body">
         <ul class="contacts__links">
           <li class="contacts__link">
