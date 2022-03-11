@@ -2,6 +2,7 @@
   <SmnvHeader :is-english="isEnglish" @toggle-language="switchLanguage" />
   <main>
     <SmnvPromo :is-english="isEnglish" />
+    <SmnvServices :is-english="isEnglish" />
   </main>
   <!-- <HelloWorld msg="Welcome to Your Vue.js App" /> -->
 </template>
@@ -9,12 +10,14 @@
 <script>
 import SmnvHeader from "./components/SmnvHeader.vue";
 import SmnvPromo from "./components/SmnvPromo.vue";
+import SmnvServices from "./components/SmnvServices.vue";
 
 export default {
   name: "App",
   components: {
     SmnvHeader,
     SmnvPromo,
+    SmnvServices,
   },
   data() {
     return {
@@ -180,6 +183,20 @@ body {
   @media screen and (min-width: 1440px) {
     max-width: 1320px;
     padding: 0;
+  }
+}
+.section-title {
+  font-size: 40px;
+  font-weight: 300;
+  line-height: 0.95;
+  letter-spacing: -0.02em;
+  text-transform: uppercase;
+  margin-bottom: 50px;
+
+  @media screen and (min-width: 1200px) {
+    font-size: 90px;
+    line-height: 1.06;
+    margin-bottom: 80px;
   }
 }
 
