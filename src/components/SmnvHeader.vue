@@ -5,14 +5,14 @@
         <button
           type="button"
           :class="['switcher', { _active: isEnglish }]"
-          @click="handleLanguage"
+          @click="toggleLanguage"
         >
           En
         </button>
         <button
           type="button"
           :class="['switcher', { _active: !isEnglish }]"
-          @click="handleLanguage"
+          @click="toggleLanguage"
         >
           Ru
         </button>
@@ -78,18 +78,24 @@
 <script>
 export default {
   name: "SmnvHeader",
+  props: {
+    isEnglish: {
+      type: Boolean,
+      required: true,
+    },
+  },
+  emits: ["toggle-language"],
   data() {
     return {
       menuOpened: false,
-      isEnglish: true,
     };
   },
   methods: {
     handleMenu() {
       this.menuOpened = !this.menuOpened;
     },
-    handleLanguage() {
-      this.isEnglish = !this.isEnglish;
+    toggleLanguage() {
+      this.$emit("toggle-language");
     },
   },
 };
