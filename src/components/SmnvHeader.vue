@@ -107,6 +107,7 @@ export default {
   methods: {
     handleMenu() {
       this.menuOpened = !this.menuOpened;
+      document.body.style.position = this.menuOpened ? "fixed" : "";
     },
     toggleLanguage() {
       this.$emit("toggle-language");
