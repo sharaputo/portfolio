@@ -1,5 +1,5 @@
 <template>
-  <section class="services">
+  <section class="services" id="service">
     <div class="container">
       <h2 class="section-title">
         <span v-if="isEnglish">services</span>
