@@ -144,6 +144,7 @@ export default {
     &._active {
       opacity: 1;
       transform: scale(1);
+      z-index: 1;
     }
 
     .nav {
@@ -204,6 +205,7 @@ export default {
       padding: 160px 15px 30px;
       transform: scale(0.9);
       transition: opacity 0.2s ease-in-out, transform 0.3s ease-in-out;
+      z-index: -1;
     }
     @media screen and (min-width: 1200px) {
       flex-grow: 1;
