@@ -4,6 +4,7 @@
     <SmnvPromo :is-english="isEnglish" />
     <SmnvServices :is-english="isEnglish" />
   </main>
+  <SmnvFooter :is-english="isEnglish" />
   <!-- <HelloWorld msg="Welcome to Your Vue.js App" /> -->
 </template>
 
@@ -12,12 +13,15 @@ import SmnvHeader from "./components/SmnvHeader.vue";
 import SmnvPromo from "./components/SmnvPromo.vue";
 import SmnvServices from "./components/SmnvServices.vue";
 
+import SmnvFooter from "./components/SmnvFooter.vue";
+
 export default {
   name: "App",
   components: {
     SmnvHeader,
     SmnvPromo,
     SmnvServices,
+    SmnvFooter,
   },
   data() {
     return {
@@ -138,6 +142,7 @@ body {
   -ms-text-size-adjust: 100%;
   -moz-text-size-adjust: 100%;
   -webkit-text-size-adjust: 100%;
+  scroll-behavior: smooth;
 }
 p {
   margin-top: 0;
