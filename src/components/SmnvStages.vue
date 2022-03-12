@@ -153,6 +153,7 @@ export default {
     @media screen and (min-width: 1200px) {
       align-items: flex-start;
       justify-content: space-between;
+      padding-top: 20px;
     }
 
     &__header {
@@ -169,7 +170,12 @@ export default {
       }
     }
     &__title {
+      font-size: 20px;
       font-weight: 400;
+
+      @media screen and (min-width: 1200px) {
+        font-size: 30px;
+      }
     }
     &__info {
       font-size: 15px;
