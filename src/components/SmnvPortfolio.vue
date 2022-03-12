@@ -1,5 +1,5 @@
 <template>
-  <section class="portfolio" id="portfolio">
+  <section class="portfolio section-padding" id="portfolio">
     <div class="container">
       <h2 class="section-title">
         <span v-if="isEnglish">portfolio</span>
@@ -262,11 +262,6 @@ export default {
 
 <style lang="less">
 .portfolio {
-  padding-top: 80px;
-
-  @media screen and (min-width: 1200px) {
-    padding-top: 205px;
-  }
   &__body {
     display: flex;
 

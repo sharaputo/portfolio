@@ -1,5 +1,5 @@
 <template>
-  <section class="contacts" id="contacts">
+  <section class="contacts section-padding" id="contacts">
     <div class="container">
       <h2 class="section-title">
         <span v-if="isEnglish">contacts</span>
@@ -107,12 +107,6 @@ export default {
 
 <style lang="less">
 .contacts {
-  padding-top: 80px;
-
-  @media screen and (min-width: 1200px) {
-    padding-top: 200px;
-  }
-
   &__body {
     display: flex;
     align-items: center;

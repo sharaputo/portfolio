@@ -217,4 +217,11 @@ body {
     margin-bottom: 80px;
   }
 }
+.section-padding {
+  padding-top: 80px;
+
+  @media screen and (min-width: 1200px) {
+    padding-top: 200px;
+  }
+}
 </style>

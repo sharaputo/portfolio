@@ -1,5 +1,5 @@
 <template>
-  <section class="stages" id="stages">
+  <section class="stages section-padding" id="stages">
     <div class="container">
       <h2 class="section-title">
         <span v-if="isEnglish">work stages</span>
@@ -130,11 +130,6 @@ export default {
 
 <style lang="less">
 .stages {
-  padding-top: 80px;
-
-  @media screen and (min-width: 1200px) {
-    padding-top: 200px;
-  }
   &__list {
     display: flex;
     flex-direction: column;
