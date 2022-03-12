@@ -169,6 +169,7 @@ ul li {
 }
 
 body {
+  width: 100%;
   min-width: 320px;
   font-family: "Inter", sans-serif;
   font-size: 16px;
