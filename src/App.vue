@@ -40,9 +40,21 @@ export default {
       isEnglish: true,
     };
   },
+  created() {
+    this.setLanguage();
+  },
   methods: {
     switchLanguage() {
       this.isEnglish = !this.isEnglish;
+    },
+    setLanguage() {
+      const lang = navigator.language;
+
+      if (lang === "ru-RU") {
+        this.isEnglish = false;
+      } else {
+        this.isEnglish = true;
+      }
     },
   },
 };
