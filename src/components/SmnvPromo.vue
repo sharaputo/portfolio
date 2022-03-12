@@ -58,7 +58,7 @@
           </a>
         </div>
         <div class="promo__photo">
-          <img alt="Natalia Semenova" src="./../assets/promo.jpg" />
+          <img alt="Natalia Semenova" src="@/assets/promo.jpg" />
         </div>
       </div>
     </div>

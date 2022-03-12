@@ -12,8 +12,8 @@
               <div class="card__image">
                 <img
                   class="card__img"
-                  alt=""
-                  src="./../assets/portfolio/portfolio-1.jpg"
+                  alt="Vogue Dance Histor"
+                  src="@/assets/portfolio/portfolio-1.jpg"
                 />
                 <div class="label">
                   <span v-if="isEnglish">Soon</span>
@@ -42,8 +42,8 @@
             >
               <img
                 class="card__img"
-                alt=""
-                src="./../assets/portfolio/portfolio-2.jpg"
+                alt="Franchise landing page"
+                src="@/assets/portfolio/portfolio-2.jpg"
               />
               <div class="card__title">
                 <span v-if="isEnglish">Franchise landing page</span>
@@ -63,8 +63,8 @@
             <a href="https://lova-dsgn.com/" class="card" target="_blank">
               <img
                 class="card__img"
-                alt=""
-                src="./../assets/portfolio/portfolio-3.jpg"
+                alt="Website for a brand design studio"
+                src="@/assets/portfolio/portfolio-3.jpg"
               />
               <div class="card__title">
                 <span v-if="isEnglish">Website for a brand design studio</span>
@@ -87,8 +87,8 @@
               <div class="card__image">
                 <img
                   class="card__img"
-                  alt=""
-                  src="./../assets/portfolio/portfolio-4.jpg"
+                  alt="Website for architecture and design bureau"
+                  src="@/assets/portfolio/portfolio-4.jpg"
                 />
                 <div class="label">
                   <span v-if="isEnglish">Soon</span>
@@ -115,8 +115,8 @@
             <a href="https://artandsweets.ru/" class="card" target="_blank">
               <img
                 class="card__img"
-                alt=""
-                src="./../assets/portfolio/portfolio-5.jpg"
+                alt="Website for a confectionery"
+                src="@/assets/portfolio/portfolio-5.jpg"
               />
               <div class="card__title">
                 <span v-if="isEnglish">Website for a confectionery</span>
@@ -140,8 +140,8 @@
             >
               <img
                 class="card__img"
-                alt=""
-                src="./../assets/portfolio/portfolio-6.jpg"
+                alt="Website for the School of Energy Practitioners"
+                src="@/assets/portfolio/portfolio-6.jpg"
               />
               <div class="card__title">
                 <span v-if="isEnglish">
@@ -166,8 +166,8 @@
               <div class="card__image">
                 <img
                   class="card__img"
-                  alt=""
-                  src="./../assets/portfolio/portfolio-7.jpg"
+                  alt="Website for a permanent makeup artist"
+                  src="@/assets/portfolio/portfolio-7.jpg"
                 />
                 <div class="label">
                   <span v-if="isEnglish">Soon</span>
@@ -198,8 +198,8 @@
             >
               <img
                 class="card__img"
-                alt=""
-                src="./../assets/portfolio/portfolio-8.jpg"
+                alt="Website for a wellness center"
+                src="@/assets/portfolio/portfolio-8.jpg"
               />
               <div class="card__title">
                 <span v-if="isEnglish">Website for a wellness center</span>
@@ -223,8 +223,8 @@
             >
               <img
                 class="card__img"
-                alt=""
-                src="./../assets/portfolio/portfolio-9.jpg"
+                alt="Online store of skin care cosmetics"
+                src="@/assets/portfolio/portfolio-9.jpg"
               />
               <div class="card__title">
                 <span v-if="isEnglish">
