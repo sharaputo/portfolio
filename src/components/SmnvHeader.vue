@@ -146,12 +146,13 @@ export default {
       color: #fff;
       transition: color 0.3s ease-in-out;
 
-      &:hover {
+      &:hover:not(._active) {
         color: #a1a1a1;
       }
 
       &._active {
         text-decoration: underline;
+        pointer-events: none;
       }
     }
   }
