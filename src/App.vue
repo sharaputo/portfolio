@@ -207,7 +207,7 @@ body {
 .section-title {
   font-size: 40px;
   font-weight: 300;
-  line-height: 0.95;
+  line-height: 1.19;
   letter-spacing: -0.02em;
   text-transform: uppercase;
   margin-bottom: 50px;

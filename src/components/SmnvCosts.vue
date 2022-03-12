@@ -69,7 +69,7 @@
                 If you don't have any ready-made graphics or it's outdated, I
                 can pick up photos/videos from free stocks. But I still
                 recommend using the services of a photographer or images from
-                paid resources.<br />
+                paid resources.<br /><br />
                 Why? Because the photographer or videographer will create unique
                 content that no one else has. In addition, the content will
                 fully comply with the requirements of the company.
@@ -78,7 +78,7 @@
                 Если у вас совсем нет готовой графики или она устарела, я могу
                 подобрать фото/видео из бесплатных стоков. Но рекомендую всё же
                 использовать услуги фотографа или изображения из платных
-                ресурсов.<br />
+                ресурсов.<br /><br />
                 Почему? Потому что фотограф или видеограф создаст уникальный
                 контент, которого больше ни у кого нет. К тому же, контент будет
                 полностью соответствовать требованиям компании.

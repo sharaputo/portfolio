@@ -111,6 +111,10 @@ export default {
         fill: #201f1f;
       }
     }
+
+    &:hover:not(._active) .btn svg {
+      fill: #a1a1a1;
+    }
   }
 
   h3 {
