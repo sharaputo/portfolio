@@ -199,6 +199,7 @@ export default {
       flex-shrink: 0;
       flex-basis: 423px;
       font-size: 20px;
+      padding: 50px 0;
     }
 
     &:hover {
