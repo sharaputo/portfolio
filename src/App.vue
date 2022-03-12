@@ -178,6 +178,7 @@ body {
   line-height: 1.35;
   word-wrap: break-word;
   overflow-wrap: break-word;
+  font-feature-settings: "tnum" on, "lnum" on;
   color: #fff;
   background-color: #201f1f;
 }
