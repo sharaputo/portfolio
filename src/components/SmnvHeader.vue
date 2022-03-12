@@ -33,19 +33,19 @@
       </div>
       <div :class="['header__nav', { _active: menuOpened }]">
         <nav class="nav">
-          <a href="#portfolio" class="nav__link" @click="handleMenu">
+          <a href="#portfolio" class="nav__link" @click="closeMenu">
             <span v-if="isEnglish">Portfolio</span>
             <span v-else>Портфолио</span>
           </a>
-          <a href="#service" class="nav__link" @click="handleMenu">
+          <a href="#service" class="nav__link" @click="closeMenu">
             <span v-if="isEnglish">Services</span>
             <span v-else>Услуги</span>
           </a>
-          <a href="#stages" class="nav__link" @click="handleMenu">
+          <a href="#stages" class="nav__link" @click="closeMenu">
             <span v-if="isEnglish">Work stages</span>
             <span v-else>Этапы работы</span>
           </a>
-          <a href="#contacts" class="nav__link" @click="handleMenu">
+          <a href="#contacts" class="nav__link" @click="closeMenu">
             <span v-if="isEnglish">Contacts</span>
             <span v-else>Контакты</span>
           </a>
@@ -55,7 +55,7 @@
             href="https://www.instagram.com/websmnv/?hl=ru"
             class="social-link"
             target="_blank"
-            @click="handleMenu"
+            @click="closeMenu"
           >
             Instagram
           </a>
@@ -63,7 +63,7 @@
             href="tg://resolve?domain=n_smnv"
             class="social-link"
             target="_blank"
-            @click="handleMenu"
+            @click="closeMenu"
           >
             Telegram
           </a>
@@ -71,7 +71,7 @@
             href="https://www.behance.net/nataliasemenova"
             class="social-link"
             target="_blank"
-            @click="handleMenu"
+            @click="closeMenu"
           >
             Behance
           </a>
@@ -108,6 +108,10 @@ export default {
     handleMenu() {
       this.menuOpened = !this.menuOpened;
       document.body.style.position = this.menuOpened ? "fixed" : "";
+    },
+    closeMenu() {
+      this.menuOpened = false;
+      document.body.style.position = "";
     },
     toggleLanguage() {
       this.$emit("toggle-language");
