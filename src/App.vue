@@ -237,4 +237,59 @@ body {
     padding-top: 200px;
   }
 }
+
+@media (hover: hover) {
+  .accordion__trigger:not(._active):hover .btn svg {
+    fill: #a1a1a1;
+  }
+  .contacts__brief:hover {
+    color: #fff;
+    background-color: #201f1f;
+  }
+  .contacts__links .social-link:hover {
+    color: #a1a1a1;
+    &::after {
+      background-color: #a1a1a1;
+    }
+    svg {
+      fill: #a1a1a1;
+    }
+  }
+  .footer__top:hover {
+    color: #a1a1a1;
+
+    svg {
+      fill: #a1a1a1;
+    }
+  }
+  .header__lang .switcher:not(._active):hover {
+    color: #a1a1a1;
+  }
+  .header__nav .nav__link:hover {
+    color: #a1a1a1;
+  }
+  .header__nav .social-link:hover {
+    color: #a1a1a1;
+  }
+  .portfolio .card:not(.card--upcoming):hover {
+    .card__img {
+      filter: grayscale(0);
+    }
+    .card__title {
+      color: #a1a1a1;
+    }
+    svg {
+      fill: #a1a1a1;
+    }
+  }
+  .promo .brief:hover {
+    color: #a1a1a1;
+    &::after {
+      background-color: #a1a1a1;
+    }
+    svg {
+      fill: #a1a1a1;
+    }
+  }
+}
 </style>
