@@ -10,7 +10,7 @@
           <li class="contacts__link">
             <a
               href="https://www.instagram.com/websmnv/?hl=ru"
-              class="social-link"
+              class="contact"
               target="_blank"
             >
               <svg
@@ -27,7 +27,7 @@
           <li class="contacts__link">
             <a
               href="https://www.behance.net/nataliasemenova"
-              class="social-link"
+              class="contact"
               target="_blank"
             >
               <svg
@@ -44,7 +44,7 @@
           <li class="contacts__link">
             <a
               href="tg://resolve?domain=n_smnv"
-              class="social-link"
+              class="contact"
               target="_blank"
             >
               <svg
@@ -59,11 +59,7 @@
             </a>
           </li>
           <li class="contacts__link">
-            <a
-              href="https://wa.me/79213360423"
-              class="social-link"
-              target="_blank"
-            >
+            <a href="https://wa.me/79213360423" class="contact" target="_blank">
               <svg
                 width="14"
                 height="13"
@@ -124,7 +120,7 @@ export default {
     grid-template-columns: 1fr 1fr;
     column-gap: 13px;
     row-gap: 24px;
-    .social-link {
+    .contact {
       position: relative;
       font-size: 20px;
       text-transform: uppercase;
