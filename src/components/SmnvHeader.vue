@@ -50,10 +50,10 @@
             <span v-else>Контакты</span>
           </a>
         </nav>
-        <div class="social-links">
+        <div class="contacts">
           <a
             href="https://www.instagram.com/websmnv/?hl=ru"
-            class="social-link"
+            class="contact"
             target="_blank"
             @click="closeMenu"
           >
@@ -61,7 +61,7 @@
           </a>
           <a
             href="tg://resolve?domain=n_smnv"
-            class="social-link"
+            class="contact"
             target="_blank"
             @click="closeMenu"
           >
@@ -69,7 +69,7 @@
           </a>
           <a
             href="https://www.behance.net/nataliasemenova"
-            class="social-link"
+            class="contact"
             target="_blank"
             @click="closeMenu"
           >
@@ -108,6 +108,9 @@ export default {
     handleMenu() {
       this.menuOpened = !this.menuOpened;
       document.body.style.position = this.menuOpened ? "fixed" : "";
+
+      let vh = window.innerHeight * 0.01;
+      document.documentElement.style.setProperty("--vh", `${vh}px`);
     },
     closeMenu() {
       this.menuOpened = false;
@@ -182,7 +185,7 @@ export default {
         flex-direction: column;
       }
     }
-    .social-links {
+    .contacts {
       display: flex;
       align-items: center;
       justify-content: center;
@@ -192,7 +195,7 @@ export default {
         gap: 20px;
       }
     }
-    .social-link {
+    .contact {
       font-size: 14px;
       color: #fff;
       text-transform: uppercase;
@@ -204,7 +207,8 @@ export default {
       top: 0;
       left: 0;
       width: 100%;
-      height: 100%;
+      height: 100vh;
+      height: calc(var(--vh, 1vh) * 100);
       flex-direction: column;
       background-color: #201f1f;
       opacity: 0;
