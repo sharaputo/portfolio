@@ -70,14 +70,6 @@ export default {
     padding-right: 16px;
     transition: color 0.3s ease-in-out;
 
-    &:hover {
-      color: #a1a1a1;
-
-      svg {
-        fill: #a1a1a1;
-      }
-    }
-
     svg {
       position: absolute;
       right: 0;

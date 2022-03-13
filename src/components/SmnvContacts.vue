@@ -144,15 +144,6 @@ export default {
         background-color: #fff;
         transition: background-color 0.3s ease-in-out;
       }
-      &:hover {
-        color: #a1a1a1;
-        &::after {
-          background-color: #a1a1a1;
-        }
-        svg {
-          fill: #a1a1a1;
-        }
-      }
 
       svg {
         position: absolute;
@@ -200,11 +191,6 @@ export default {
       flex-basis: 423px;
       font-size: 20px;
       padding: 50px 0;
-    }
-
-    &:hover {
-      color: #fff;
-      background-color: #201f1f;
     }
   }
 }

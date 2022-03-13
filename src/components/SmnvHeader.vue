@@ -146,10 +146,6 @@ export default {
       color: #fff;
       transition: color 0.3s ease-in-out;
 
-      &:hover:not(._active) {
-        color: #a1a1a1;
-      }
-
       &._active {
         text-decoration: underline;
         pointer-events: none;
@@ -177,10 +173,6 @@ export default {
         color: #fff;
         transition: color 0.3s ease-in-out;
 
-        &:hover {
-          color: #a1a1a1;
-        }
-
         @media screen and (min-width: 1200px) {
           font-size: 14px;
         }
@@ -206,10 +198,6 @@ export default {
       text-transform: uppercase;
       text-decoration: underline;
       transition: color 0.3s ease-in-out;
-
-      &:hover {
-        color: #a1a1a1;
-      }
     }
     @media screen and (max-width: 1199px) {
       position: fixed;

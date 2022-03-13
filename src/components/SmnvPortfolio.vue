@@ -333,18 +333,6 @@ export default {
       border-radius: 50%;
     }
 
-    &:hover:not(.card--upcoming) {
-      .card__img {
-        filter: grayscale(0);
-      }
-      .card__title {
-        color: #a1a1a1;
-      }
-      svg {
-        fill: #a1a1a1;
-      }
-    }
-
     @media screen and (min-width: 1200px) {
       padding-bottom: 15px;
     }
