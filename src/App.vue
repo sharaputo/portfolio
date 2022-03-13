@@ -166,6 +166,7 @@ body {
   -ms-text-size-adjust: 100%;
   -moz-text-size-adjust: 100%;
   -webkit-text-size-adjust: 100%;
+  height: -webkit-fill-available;
   scroll-behavior: smooth;
 }
 p {
@@ -183,6 +184,7 @@ ul li {
 body {
   width: 100%;
   min-width: 320px;
+  min-height: 100vh;
   font-family: "Inter", sans-serif;
   font-size: 16px;
   font-style: normal;
